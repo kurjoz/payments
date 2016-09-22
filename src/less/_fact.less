@@ -1,0 +1,32 @@
+.fact{
+    float: left;
+    width: 25%;
+}
+.fact_wide{
+    width: 50%;
+}
+.fact-accent{
+    font-size: 60px;
+}
+.fact-desc{}
+
+@media (max-width: @screen-xs-max){
+    .fact{
+        margin: 15px 0;
+        float: none;
+        width: auto;
+    }
+    .fact-accent{
+        font-size: 42px;
+    }
+}
+
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max){
+    .fact{
+        width: 50%;
+    }
+    .fact + .fact + .fact{
+        width: 100%;
+        clear: both;
+    }
+}

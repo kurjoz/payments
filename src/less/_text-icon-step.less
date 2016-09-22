@@ -1,0 +1,64 @@
+.text-icon-step{
+    margin: 40px 0;
+    padding: 0 5% 0 0;
+    float: left;
+    width: 25%;
+}
+.text-icon-step__step{
+    float: left;
+    width: 70px;
+}
+.text-icon-step__step-num{
+    font-size: 48px;
+    display: block;
+}
+.text-icon-step__step-lbl{
+    font-size: 14px;
+    display: block;
+}
+.text-icon-step__icon{
+    position: relative;
+    top: 10px;
+}
+.text-icon-step .text-icon__text{
+    margin: 40px 0 0 0;
+    clear: both;
+    display: block;
+    font-size: 22px;
+    line-height: 1.7272727273;
+    width: 100%;
+}
+
+@media (max-width: @screen-xs-max){
+    .text-icon-step{
+        margin: 20px 0 0 0;
+        padding: 0;
+        float: none;
+        width: 100%;
+        &:after{
+            content: '';
+            display: table;
+            clear: both;
+        }
+    }
+    .text-icon-step .text-icon-step__step{
+        width: 50px;
+    }
+    .text-icon-step  .text-icon-step__icon{
+        float: left;
+        width: 75px;
+    }
+    .text-icon-step  .text-icon__text{
+        margin: 0 0 0 130px;
+        padding: 10px 0 0;
+        clear: none;
+        width: auto;
+        font-size: 16px;
+    }
+
+}
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+    .text-icon-step{
+        width: 50%;
+    }
+}
