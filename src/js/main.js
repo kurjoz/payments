@@ -1,1 +1,1 @@
-@import "imported_example.js"
+@import "../bower_components/bootstrap/dist/js/bootstrap.min";
