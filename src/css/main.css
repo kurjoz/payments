@@ -311,7 +311,7 @@ i.brand {
   background-position: center;
 }
 .text-icon_left .text-icon__text {
-  padding: 0 0 0 10px;
+  padding: 0 0 0 20px;
   display: table-cell;
   vertical-align: middle;
 }
@@ -373,7 +373,6 @@ i.brand {
   margin: 40px 0 0 0;
   clear: both;
   display: block;
-  font-size: 22px;
   line-height: 1.7272727273;
   width: 100%;
 }
