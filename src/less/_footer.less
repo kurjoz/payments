@@ -73,13 +73,24 @@
     background-image: url('../im/footer-ico-chat.png');
 }
 
+.footer-contacts .inner{
+    &:after{
+        content: '';
+        display: table;
+        clear: both;
+
+    }
+}
 .footer-copyright{
     margin-left: 50%;
     font-size: 13px;
 }
+.footer-contacts .footer-copyright{
+    padding-top: 20px;
+}
 
 .footer-apps{
-    margin: 0 0 30px;
+    margin: 0 0 20px;
 }
 .footer-apps::after{
     content: '';

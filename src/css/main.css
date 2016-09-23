@@ -297,6 +297,9 @@ i.brand {
   -webkit-background-size: 100% auto;
   background-size: 100% auto;
 }
+.section_hasbg .btn {
+  min-width: 260px;
+}
 .section_hasbg_primary {
   background-color: #0080e9;
   color: #fff;
@@ -544,16 +547,20 @@ i.brand {
 }
 .fact {
   float: left;
-  width: 25%;
+  width: 20%;
 }
-.fact_wide {
+.fact + .fact {
+  width: 30%;
+}
+.fact.fact_wide {
   width: 50%;
 }
 .fact-accent {
-  font-size: 60px;
+  font-size: 58px;
 }
 @media (max-width: 767px) {
-  .fact {
+  .fact,
+  .fact + .fact {
     margin: 15px 0;
     float: none;
     width: auto;
@@ -563,8 +570,9 @@ i.brand {
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .fact {
-    width: 50%;
+  .fact,
+  .fact + .fact {
+    width: 40%;
   }
   .fact + .fact + .fact {
     margin-top: 40px;
@@ -640,12 +648,20 @@ i.brand {
 .badge-chat::before {
   background-image: url('../im/footer-ico-chat.png');
 }
+.footer-contacts .inner:after {
+  content: '';
+  display: table;
+  clear: both;
+}
 .footer-copyright {
   margin-left: 50%;
   font-size: 13px;
 }
+.footer-contacts .footer-copyright {
+  padding-top: 20px;
+}
 .footer-apps {
-  margin: 0 0 30px;
+  margin: 0 0 20px;
 }
 .footer-apps::after {
   content: '';
