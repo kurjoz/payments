@@ -1,9 +1,14 @@
 .btn {
-    padding: 15px 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     font-size: 20px;
     text-align: center;
-    //min-width: 290px;
     text-transform: lowercase;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 3px;
+
 
     &,
     &:active,
@@ -34,16 +39,19 @@
 }
 
 .btn-primary{
-    border-bottom-color: #a1091a;
+
 }
 .btn.btn-nav-action{
-    margin: 28px;
-    padding: 0 20px;
+    margin: 17px 10px 0;
+    padding: 4px 20px;
     width: auto;
     font-size: 14px;
     background-color: #757575;
-    border-bottom: 1px solid #434343;
+    border-bottom: 2px solid #646464;
     color: #fff!important;
     min-width: 0;
     text-transform: lowercase;
+    &:hover{
+        background-color: #5b5b5b;
+    }
 }

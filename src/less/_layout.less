@@ -1,9 +1,23 @@
 @import "_variables";
+
 body{
-    padding-top: 90px;
+    padding-top: 70px;
     font-weight: 300;
 }
+.logo img{
+    display: block;
+    max-width: 100%;
+}
 
+@media (max-width: 480px) {
+    .navbar-brand{
+        width: 200px;
+        .logo{
+            position: relative;
+            top: 5px;
+        }
+    }
+}
 @media (max-width: @screen-xs-max) {
     body{
         //border: 1px solid red;

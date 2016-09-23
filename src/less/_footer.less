@@ -2,13 +2,13 @@
     padding: 80px 0 60px;
     background-color: #dedede;
     color: #4d4d4d;
+    font-size: 14px;
 }
 .footer-logo{
     margin-bottom: 50px;
 }
 
 .footer-links{
-    font-size: 14px;
     &:after{
         content: '';
         display: block;
@@ -31,7 +31,6 @@
 }
 
 .footer-contacts{
-    font-size: 15px;
     &:after{
         content: '';
         display: block;
@@ -81,7 +80,6 @@
 
 .footer-apps{
     margin: 0 0 30px;
-    font-size: 16px;
 }
 .footer-apps::after{
     content: '';
@@ -109,7 +107,6 @@
 
 
 .footer-security{
-    font-size: 16px;
 }
 .footer-security::after{
     content: '';
@@ -190,12 +187,18 @@
     .mobile-logo .footer-logo{
         margin: 0 0 10px;
         display: block;
-        width: 100%;
+        width: 200px;
+        img{
+            display: block;
+            width: 100%;
+        }
+
     }
     .mobile-logo .footer-copyright{
         margin: 0;
         display: block;
         width: 100%;
+        text-align: left;
     }
 }
 @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max){
