@@ -556,7 +556,8 @@ i.brand {
   width: 50%;
 }
 .fact-accent {
-  font-size: 58px;
+  font-size: 46px;
+  font-weight: 500;
 }
 @media (max-width: 767px) {
   .fact,
