@@ -418,6 +418,12 @@ i.brand {
   padding: 0 0 0 20px;
   display: table-cell;
   vertical-align: middle;
+  color: inherit;
+  transition: all 200ms linear;
+}
+.text-icon_left .text-icon__text:hover {
+  color: #ff0006;
+  text-decoration: none;
 }
 @media (max-width: 510px) {
   .text-icon.text-icon_left {
