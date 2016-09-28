@@ -421,7 +421,8 @@ i.brand {
   color: inherit;
   transition: all 200ms linear;
 }
-.text-icon_left .text-icon__text:hover {
+.text-icon_left .text-icon__text:hover,
+.text-icon_left .text-icon__text:focus {
   color: #ff0006;
   text-decoration: none;
 }
