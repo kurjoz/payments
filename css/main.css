@@ -879,17 +879,14 @@ i.brand {
 .section {
   overflow: hidden;
 }
-.section .elements-set-0,
-.section .btn-text {
+.section .elements-set-0 {
   transition: all 750ms linear;
   opacity: 0;
 }
-.section .elements-set-0,
-.section .btn-text {
+.section .elements-set-0 {
   transition-delay: 500ms;
 }
-.section.in-view .elements-set-0,
-.section.in-view .btn-text {
+.section.in-view .elements-set-0 {
   opacity: 1;
 }
 .section .elements-set-top,
@@ -912,23 +909,23 @@ i.brand {
 .section .text-icon__top,
 .section .fact {
   transition: all 750ms linear;
-  transition-delay: 500ms;
+  transition-delay: 300ms;
   opacity: 0;
 }
 .section .text-icon-step + .text-icon-step,
 .section .text-icon__top + .text-icon__top,
 .section .fact + .fact {
-  transition-delay: 1000ms;
+  transition-delay: 600ms;
 }
 .section .text-icon-step + .text-icon-step + .text-icon-step,
 .section .text-icon__top + .text-icon__top + .text-icon__top,
 .section .fact + .fact + .fact {
-  transition-delay: 1500ms;
+  transition-delay: 900ms;
 }
 .section .text-icon-step + .text-icon-step + .text-icon-step + .text-icon-step,
 .section .text-icon__top + .text-icon__top + .text-icon__top + .text-icon__top,
 .section .fact + .fact + .fact + .fact {
-  transition-delay: 2000ms;
+  transition-delay: 1200ms;
 }
 .section.in-view .text-icon-step,
 .section.in-view .text-icon__top,
