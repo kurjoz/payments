@@ -63,11 +63,13 @@
 <div class="page-container">
     <section class="section section_hasbg">
         <div class="section__aligner">
-            <div class="container">
-                <h1>сплачуйте <b>податки</b> <br class="visible-xs-inline">онлайн <br class="visible-lg-inline">на <b><i class="brand">portmone.</i></b><b>com</b></h1>
-                <a href="#" class="btn btn-primary">
-                    сплатити податок
-                </a>
+            <div class="elements-set-top">
+                <div class="container">
+                    <h1>сплачуйте <b>податки</b> <br class="visible-xs-inline">онлайн <br class="visible-lg-inline">на <b><i class="brand">portmone.</i></b><b>com</b></h1>
+                    <a href="#" class="btn btn-primary">
+                        сплатити податок
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -376,7 +378,7 @@
 
                 //check to see if this current container is within viewport
                 if ((element_bottom_position >= window_top_position) &&
-                    (element_top_position + 0.75*element_height <= window_bottom_position)) {
+                    (element_top_position + 0.45*element_height <= window_bottom_position)) {
                     $element.addClass('in-view');
                 } else {
                     //$element.removeClass('in-view');

@@ -7,7 +7,7 @@
 }
 // General animation for regular content elements
 .section{
-    h2,
+    //h2,
     .elements-set-0,
     .btn-text{
         transition: all 750ms linear;
@@ -20,13 +20,37 @@
     }
 }
 .section.in-view{
-    h2,
+    //h2,
     .elements-set-0,
     .btn-text{
         //transform: translate3d(0px, 0px, 0px);
         opacity: 1;
     }
 }
+
+//Top Slide animation:
+.section{
+    .elements-set-top,
+    &.section_hasbg:before{
+        transition: all 550ms linear;
+        //transform: translate3d(0px, 400px, 0px);
+        opacity: 0;
+    }
+    &.section_hasbg:before{
+        transform: translate3d(0px, 400px, 0px);
+    }
+    &.section_hasbg:before{
+        transition-delay: 500ms;
+    }
+}
+.section.in-view{
+    .elements-set-top,
+    &.section_hasbg:before{
+        transform: translate3d(0px, 0px, 0px);
+        opacity: 1;
+    }
+}
+
 
 // Animations for steps section
 .section{

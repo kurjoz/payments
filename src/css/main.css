@@ -268,7 +268,7 @@ i.brand {
   }
 }
 .section {
-  padding: 160px 0;
+  padding: 120px 0;
   display: table;
   width: 100%;
   position: relative;
@@ -281,7 +281,7 @@ i.brand {
   padding: 0;
   height: 574px;
   background-color: #e9eef1;
-  background-image: url(../im/promo-bg.jpg);
+  background-image: url('../im/promo-bg.jpg');
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
@@ -879,7 +879,6 @@ i.brand {
 .section {
   overflow: hidden;
 }
-.section h2,
 .section .elements-set-0,
 .section .btn-text {
   transition: all 750ms linear;
@@ -889,9 +888,24 @@ i.brand {
 .section .btn-text {
   transition-delay: 500ms;
 }
-.section.in-view h2,
 .section.in-view .elements-set-0,
 .section.in-view .btn-text {
+  opacity: 1;
+}
+.section .elements-set-top,
+.section.section_hasbg:before {
+  transition: all 550ms linear;
+  opacity: 0;
+}
+.section.section_hasbg:before {
+  transform: translate3d(0px, 400px, 0px);
+}
+.section.section_hasbg:before {
+  transition-delay: 500ms;
+}
+.section.in-view .elements-set-top,
+.section.in-view.section_hasbg:before {
+  transform: translate3d(0px, 0px, 0px);
   opacity: 1;
 }
 .section .text-icon-step,
