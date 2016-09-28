@@ -882,37 +882,34 @@ i.brand {
 .section h2,
 .section .elements-set-0,
 .section .btn-text {
-  transition: all 550ms linear;
-  transform: translate3d(0px, 400px, 0px);
+  transition: all 750ms linear;
   opacity: 0;
 }
 .section .elements-set-0,
 .section .btn-text {
-  transition-delay: 200ms;
+  transition-delay: 500ms;
 }
 .section.in-view h2,
 .section.in-view .elements-set-0,
 .section.in-view .btn-text {
-  transform: translate3d(0px, 0px, 0px);
   opacity: 1;
 }
 .section .text-icon-step,
 .section .text-icon__top,
 .section .fact {
-  transition: all 550ms linear;
-  transition-delay: 200ms;
-  transform: translate3d(0px, 400px, 0px);
+  transition: all 750ms linear;
+  transition-delay: 500ms;
   opacity: 0;
 }
 .section .text-icon-step + .text-icon-step,
 .section .text-icon__top + .text-icon__top,
 .section .fact + .fact {
-  transition-delay: 800ms;
+  transition-delay: 1000ms;
 }
 .section .text-icon-step + .text-icon-step + .text-icon-step,
 .section .text-icon__top + .text-icon__top + .text-icon__top,
 .section .fact + .fact + .fact {
-  transition-delay: 1400ms;
+  transition-delay: 1500ms;
 }
 .section .text-icon-step + .text-icon-step + .text-icon-step + .text-icon-step,
 .section .text-icon__top + .text-icon__top + .text-icon__top + .text-icon__top,
@@ -922,7 +919,6 @@ i.brand {
 .section.in-view .text-icon-step,
 .section.in-view .text-icon__top,
 .section.in-view .fact {
-  transform: translate3d(0px, 0px, 0px);
   opacity: 1;
 }
 /*# sourceMappingURL=main.css.map */
