@@ -84,6 +84,7 @@
 .footer-copyright{
     margin-left: 50%;
     font-size: 13px;
+    white-space: nowrap;
 }
 .footer-contacts .footer-copyright{
     padding-top: 20px;
@@ -132,6 +133,10 @@
     float: left;
     width: 30%;
     text-align: left;
+}
+.footer-security__logo >img{
+    display: block;
+    max-width: 80px;
 }
 .footer-security__logo + .footer-security__logo{
     text-align: center;
@@ -270,6 +275,12 @@
             width: 100%;
             clear: both;
         }
+    }
+    .mobile-logo{
+        display: table!important;
+    }
+    .mobile-logo .footer-copyright{
+        display: table-cell;
     }
     .decorator-sm .footer-apps{
         float: left;
