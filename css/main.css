@@ -309,7 +309,6 @@ i.brand {
 }
 .section_hasbg_secondary {
   background-color: #fcb11e;
-  color: #000;
 }
 .section_hasbg h1 {
   max-width: 55%;
@@ -326,6 +325,11 @@ i.brand {
   }
   .section_hasbg h1 {
     max-width: none;
+  }
+}
+@media (min-width: 1200px) {
+  .section.section_nobg .section__aligner h2 {
+    margin-bottom: 0;
   }
 }
 .icon {
@@ -667,6 +671,7 @@ i.brand {
 .footer-copyright {
   margin-left: 50%;
   font-size: 13px;
+  white-space: nowrap;
 }
 .footer-contacts .footer-copyright {
   padding-top: 20px;
@@ -710,6 +715,10 @@ i.brand {
   float: left;
   width: 30%;
   text-align: left;
+}
+.footer-security__logo > img {
+  display: block;
+  max-width: 80px;
 }
 .footer-security__logo + .footer-security__logo {
   text-align: center;
@@ -844,6 +853,12 @@ i.brand {
     display: table;
     width: 100%;
     clear: both;
+  }
+  .mobile-logo {
+    display: table!important;
+  }
+  .mobile-logo .footer-copyright {
+    display: table-cell;
   }
   .decorator-sm .footer-apps {
     float: left;
