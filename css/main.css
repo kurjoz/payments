@@ -898,6 +898,11 @@ i.brand {
     border-bottom: 1px solid #cecece;
   }
 }
+@media (min-width: 1200px) {
+  .decorator-sm {
+    padding-left: 25px;
+  }
+}
 .section {
   overflow: hidden;
 }
